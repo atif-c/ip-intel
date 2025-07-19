@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "IP Intel",
+    "version": "1.0",
+    "description": "Right-click selected IP to open intelligence links and copy it",
+    "permissions": ["contextMenus", "tabs", "clipboardWrite", "activeTab"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_title": "IP Intel"
+    }
+}
